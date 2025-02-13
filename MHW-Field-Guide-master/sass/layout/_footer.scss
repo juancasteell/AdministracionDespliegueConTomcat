@@ -1,0 +1,16 @@
+.footer {
+    background-color: #000;
+    display: none;
+    padding: 4rem 0;
+    text-align: center;
+
+    &__text {
+        color: #fff;
+        font-size: 1.5rem;
+
+        &-link {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+}

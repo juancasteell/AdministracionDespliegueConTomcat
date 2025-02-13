@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #0f3460;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #e94560;
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#intro,
+#search {
+  margin-bottom: 2rem;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  border: 1px solid #e94560;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#monsterList {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  gap: 1rem;
+}
+
+.monster-card {
+  flex: 0 0 300px;
+  background-color: #16213e;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.monster-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #e94560;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c73e54;
+}
