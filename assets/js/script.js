@@ -21,7 +21,7 @@ fetch("/assets/json/monsters.json")
   })
   .catch((error) => {
     console.error("Error:", error);
-    monsterList.innerHTML = `<p>Error loading monster data. Please try again later.</p>`;
+    monsterList.innerHTML = `<p>Error cargando datos.</p>`;
   });
 
 function createMonsterCard(monster) {
@@ -32,11 +32,11 @@ function createMonsterCard(monster) {
         <img src="${monster.render || "/placeholder.svg"}" alt="${
     monster.name
   }">
-        <p><strong>Species:</strong> ${monster.species}</p>
-        <p><strong>Elements:</strong> ${
+        <p><strong>Especie:</strong> ${monster.species}</p>
+        <p><strong>Elementos:</strong> ${
           monster.elements.join(", ") || "None"
         }</p>
-        <p><strong>Ailments:</strong> ${
+        <p><strong>Dolencias:</strong> ${
           monster.ailments.join(", ") || "None"
         }</p>
     `;

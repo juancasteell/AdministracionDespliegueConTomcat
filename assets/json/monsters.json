@@ -177,7 +177,7 @@
 
   {
     "name": "behemoth",
-    "render": "img/render/behemoth.png",
+    "render": "../img/render/behemoth.png",
     "species": "elder dragon",
     "elements": ["fire", "thunder"],
     "ailments": ["bleeding", "fireblight", "thunderblight"],
@@ -204,7 +204,7 @@
 
   {
     "name": "beotodus",
-    "render": "img/render/beotodus.png",
+    "render": "../img/render/beotodus.png",
     "species": "piscine wyvern",
     "elements": ["ice"],
     "ailments": ["iceblight"],
@@ -241,7 +241,7 @@
 
   {
     "name": "black diablos",
-    "render": "img/render/black_diablos.png",
+    "render": "../img/render/black_diablos.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": [],
@@ -278,7 +278,7 @@
 
   {
     "name": "blackveil vaal hazak",
-    "render": "img/render/blackveil_vaal_hazak.png",
+    "render": "../img/render/blackveil_vaal_hazak.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": ["effluvia buildup"],
@@ -315,7 +315,7 @@
 
   {
     "name": "brachydios",
-    "render": "img/render/brachydios.png",
+    "render": "../img/render/brachydios.png",
     "species": "brute wyvern",
     "elements": [],
     "ailments": ["blastscourge"],
@@ -352,7 +352,7 @@
 
   {
     "name": "brute tigrex",
-    "render": "img/render/brute_tigrex.png",
+    "render": "../img/render/brute_tigrex.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": [
@@ -393,7 +393,7 @@
 
   {
     "name": "coral pukei-pukei",
-    "render": "img/render/coral_pukei-pukei.png",
+    "render": "../img/render/coral_pukei-pukei.png",
     "species": "bird wyvern",
     "elements": ["water"],
     "ailments": ["waterblight"],
@@ -430,7 +430,7 @@
 
   {
     "name": "deviljho",
-    "render": "img/render/deviljho.png",
+    "render": "../img/render/deviljho.png",
     "species": "brute wyvern",
     "elements": ["dragon"],
     "ailments": [
@@ -474,7 +474,7 @@
 
   {
     "name": "diablos",
-    "render": "img/render/diablos.png",
+    "render": "../img/render/diablos.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": ["stun"],
@@ -511,7 +511,7 @@
 
   {
     "name": "dodogama",
-    "render": "img/render/dodogama.png",
+    "render": "../img/render/dodogama.png",
     "species": "fanged wyvern",
     "elements": ["fire"],
     "ailments": ["blastblight"],
@@ -548,7 +548,7 @@
 
   {
     "name": "ebony odogaron",
-    "render": "img/render/ebony_odogaron.png",
+    "render": "../img/render/ebony_odogaron.png",
     "species": "fanged wyvern",
     "elements": ["dragon"],
     "ailments": ["dragonblight", "bleeding"],
@@ -585,7 +585,7 @@
 
   {
     "name": "fatalis",
-    "render": "img/render/fatalis.png",
+    "render": "../img/render/fatalis.png",
     "species": "elder dragon",
     "elements": ["dragon", "fire"],
     "ailments": ["dragonblight", "fireblight"],
@@ -623,7 +623,7 @@
 
   {
     "name": "frostfang barioth",
-    "render": "img/render/frostfang_barioth.png",
+    "render": "../img/render/frostfang_barioth.png",
     "species": "flying wyvern",
     "elements": ["ice"],
     "ailments": ["iceblight"],
@@ -660,7 +660,7 @@
 
   {
     "name": "fulgur anjanath",
-    "render": "img/render/fulgur_anjanath.png",
+    "render": "../img/render/fulgur_anjanath.png",
     "species": "brute wyvern",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -707,7 +707,7 @@
 
   {
     "name": "furious rajang",
-    "render": "img/render/furious_rajang.png",
+    "render": "../img/render/furious_rajang.png",
     "species": "fanged beasts",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -744,7 +744,7 @@
 
   {
     "name": "glavenus",
-    "render": "img/render/glavenus.png",
+    "render": "../img/render/glavenus.png",
     "species": "brute wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight"],
@@ -781,7 +781,7 @@
 
   {
     "name": "gold rathian",
-    "render": "img/render/gold_rathian.png",
+    "render": "../img/render/gold_rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison", "noxious poison"],
@@ -818,7 +818,7 @@
 
   {
     "name": "great girros",
-    "render": "img/render/great_girros.png",
+    "render": "../img/render/great_girros.png",
     "species": "fanged wyvern",
     "elements": [],
     "ailments": ["paralysis"],
@@ -850,7 +850,7 @@
 
   {
     "name": "great jagras",
-    "render": "img/render/great_jagras.png",
+    "render": "../img/render/great_jagras.png",
     "species": "fanged wyvern",
     "elements": [],
     "ailments": [],
@@ -882,7 +882,7 @@
 
   {
     "name": "jyuratodus",
-    "render": "img/render/jyuratodus.png",
+    "render": "../img/render/jyuratodus.png",
     "species": "piscine wyvern",
     "elements": ["water"],
     "ailments": ["waterblight"],
@@ -919,7 +919,7 @@
 
   {
     "name": "kirin",
-    "render": "img/render/kirin.png",
+    "render": "../img/render/kirin.png",
     "species": "elder dragon",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -956,7 +956,7 @@
 
   {
     "name": "kulu-ya-ku",
-    "render": "img/render/kulu-ya-ku.png",
+    "render": "../img/render/kulu-ya-ku.png",
     "species": "bird wyvern",
     "ailments": ["stun"],
     "resistances": [],
@@ -991,7 +991,7 @@
 
   {
     "name": "kulve taroth",
-    "render": "img/render/kulve_taroth.png",
+    "render": "../img/render/kulve_taroth.png",
     "species": "elder dragon",
     "elements": ["fire"],
     "ailments": ["fireblight"],
@@ -1048,7 +1048,7 @@
 
   {
     "name": "kushala daora",
-    "render": "img/render/kushala_daora.png",
+    "render": "../img/render/kushala_daora.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": ["stun"],
@@ -1080,7 +1080,7 @@
 
   {
     "name": "lavasioth",
-    "render": "img/render/lavasioth.png",
+    "render": "../img/render/lavasioth.png",
     "species": "piscine wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight"],
@@ -1127,7 +1127,7 @@
 
   {
     "name": "legiana",
-    "render": "img/render/legiana.png",
+    "render": "../img/render/legiana.png",
     "species": "flying wyvern",
     "elements": ["ice"],
     "ailments": ["iceblight"],
@@ -1154,7 +1154,7 @@
 
   {
     "name": "leshen",
-    "render": "img/render/leshen.png",
+    "render": "../img/render/leshen.png",
     "species": "relict",
     "elements": [],
     "ailments": ["bleeding"],
@@ -1191,7 +1191,7 @@
 
   {
     "name": "lunastra",
-    "render": "img/render/lunastra.png",
+    "render": "../img/render/lunastra.png",
     "species": "elder dragon",
     "elements": ["fire"],
     "ailments": ["fireblight"],
@@ -1228,7 +1228,7 @@
 
   {
     "name": "nargacuga",
-    "render": "img/render/nargacuga.png",
+    "render": "../img/render/nargacuga.png",
     "species": "flying wyvern",
     "elements": ["none"],
     "ailments": ["bleeding"],
@@ -1265,7 +1265,7 @@
 
   {
     "name": "namielle",
-    "render": "img/render/namielle.png",
+    "render": "../img/render/namielle.png",
     "species": "elder dragon",
     "elements": ["water", "thunder"],
     "ailments": ["waterblight", "thunderblight"],
@@ -1302,7 +1302,7 @@
 
   {
     "name": "nergigante",
-    "render": "img/render/nergigante.png",
+    "render": "../img/render/nergigante.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": [],
@@ -1323,7 +1323,7 @@
 
   {
     "name": "nightshade paolumu",
-    "render": "img/render/nightshade_paolumu.png",
+    "render": "../img/render/nightshade_paolumu.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": ["sleep"],
@@ -1360,7 +1360,7 @@
 
   {
     "name": "odogaron",
-    "render": "img/render/odogaron.png",
+    "render": "../img/render/odogaron.png",
     "species": "fanged wyvern",
     "elements": [],
     "ailments": ["bleeding"],
@@ -1397,7 +1397,7 @@
 
   {
     "name": "paolumu",
-    "render": "img/render/paolumu.png",
+    "render": "../img/render/paolumu.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": ["wind pressure"],
@@ -1424,7 +1424,7 @@
 
   {
     "name": "pink rathian",
-    "render": "img/render/pink_rathian.png",
+    "render": "../img/render/pink_rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["poison", "noxious poison"],
@@ -1451,7 +1451,7 @@
 
   {
     "name": "pukei-pukei",
-    "render": "img/render/pukei-pukei.png",
+    "render": "../img/render/pukei-pukei.png",
     "species": "bird wyvern",
     "elements": [],
     "ailments": ["poison"],
@@ -1483,7 +1483,7 @@
 
   {
     "name": "radobaan",
-    "render": "img/render/radobaan.png",
+    "render": "../img/render/radobaan.png",
     "species": "brute wyvern",
     "elements": [],
     "ailments": ["sleep"],
@@ -1504,7 +1504,7 @@
 
   {
     "name": "raging brachydios",
-    "render": "img/render/raging_brachydios.png",
+    "render": "../img/render/raging_brachydios.png",
     "species": "brute wyvern",
     "elements": [],
     "ailments": ["blastscourge"],
@@ -1536,7 +1536,7 @@
 
   {
     "name": "rajang",
-    "render": "img/render/rajang.png",
+    "render": "../img/render/rajang.png",
     "species": "fanged beasts",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -1573,7 +1573,7 @@
 
   {
     "name": "rathalos",
-    "render": "img/render/rathalos.png",
+    "render": "../img/render/rathalos.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison", "stun"],
@@ -1610,7 +1610,7 @@
 
   {
     "name": "rathian",
-    "render": "img/render/rathian.png",
+    "render": "../img/render/rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison"],
@@ -1637,7 +1637,7 @@
 
   {
     "name": "ruiner nergigante",
-    "render": "img/render/ruiner_nergigante.png",
+    "render": "../img/render/ruiner_nergigante.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": ["bleeding"],
@@ -1674,7 +1674,7 @@
 
   {
     "name": "safi'jiiva",
-    "render": "img/render/safi'jiiva.png",
+    "render": "../img/render/safi'jiiva.png",
     "species": "elder dragon",
     "elements": ["fire", "dragon"],
     "ailments": ["fireblight"],
@@ -1715,7 +1715,7 @@
 
   {
     "name": "savage deviljho",
-    "render": "img/render/savage_deviljho.png",
+    "render": "../img/render/savage_deviljho.png",
     "species": "brute wyvern",
     "elements": ["dragon"],
     "ailments": [
@@ -1759,7 +1759,7 @@
 
   {
     "name": "scarred yian garuga",
-    "render": "img/render/scarred_yian_garuga.png",
+    "render": "../img/render/scarred_yian_garuga.png",
     "species": "bird wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison", "stun"],
@@ -1796,7 +1796,7 @@
 
   {
     "name": "seething bazelgeuse",
-    "render": "img/render/seething_bazelgeuse.png",
+    "render": "../img/render/seething_bazelgeuse.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "blastblight"],
@@ -1833,7 +1833,7 @@
 
   {
     "name": "shara ishvalda",
-    "render": "img/render/shara_ishvalda.png",
+    "render": "../img/render/shara_ishvalda.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": ["stun"],
@@ -1870,7 +1870,7 @@
 
   {
     "name": "shrieking legiana",
-    "render": "img/render/shrieking_legiana.png",
+    "render": "../img/render/shrieking_legiana.png",
     "species": "flying wyvern",
     "elements": ["ice"],
     "ailments": ["iceblight"],
@@ -1907,7 +1907,7 @@
 
   {
     "name": "silver rathalos",
-    "render": "img/render/silver_rathalos.png",
+    "render": "../img/render/silver_rathalos.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "stun", "poison"],
@@ -1944,7 +1944,7 @@
 
   {
     "name": "stygian zinogre",
-    "render": "img/render/stygian_zinogre.png",
+    "render": "../img/render/stygian_zinogre.png",
     "species": "fanged wyvern",
     "elements": ["dragon"],
     "ailments": ["dragonblight"],
@@ -1996,7 +1996,7 @@
 
   {
     "name": "teostra",
-    "render": "img/render/teostra.png",
+    "render": "../img/render/teostra.png",
     "species": "elder dragon",
     "elements": ["fire"],
     "ailments": ["fireblight", "blastblight"],
@@ -2023,7 +2023,7 @@
 
   {
     "name": "tigrex",
-    "render": "img/render/tigrex.png",
+    "render": "../img/render/tigrex.png",
     "species": "flying wyvern",
     "elements": [],
     "ailments": [
@@ -2065,7 +2065,7 @@
 
   {
     "name": "tobi-kadachi",
-    "render": "img/render/tobi-kadachi.png",
+    "render": "../img/render/tobi-kadachi.png",
     "species": "fanged wyvern",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -2097,7 +2097,7 @@
 
   {
     "name": "tzitzi-ya-ku",
-    "render": "img/render/tzitzi-ya-ku.png",
+    "render": "../img/render/tzitzi-ya-ku.png",
     "species": "bird wyvern",
     "elements": ["thunder"],
     "ailments": ["stun"],
@@ -2133,7 +2133,7 @@
 
   {
     "name": "uragaan",
-    "render": "img/render/uragaan.png",
+    "render": "../img/render/uragaan.png",
     "species": "brute wyvern",
     "elements": ["fire"],
     "ailments": ["sleep", "fireblight"],
@@ -2165,7 +2165,7 @@
 
   {
     "name": "vaal hazak",
-    "render": "img/render/vaal_hazak.png",
+    "render": "../img/render/vaal_hazak.png",
     "species": "elder dragon",
     "elements": [],
     "ailments": ["effluvia"],
@@ -2192,7 +2192,7 @@
 
   {
     "name": "velkhana",
-    "render": "img/render/velkhana.png",
+    "render": "../img/render/velkhana.png",
     "species": "elder dragon",
     "elements": ["ice"],
     "ailments": ["iceblight"],
@@ -2229,7 +2229,7 @@
 
   {
     "name": "viper tobi-kadachi",
-    "render": "img/render/viper_tobi-kadachi.png",
+    "render": "../img/render/viper_tobi-kadachi.png",
     "species": "fanged wyvern",
     "elements": [],
     "ailments": ["poison", "noxious poison", "paralysis"],
@@ -2266,7 +2266,7 @@
 
   {
     "name": "xeno'jiiva",
-    "render": "img/render/xenojiiva.png",
+    "render": "../img/render/xenojiiva.png",
     "species": "elder dragon",
     "elements": ["fire", "dragon"],
     "ailments": ["fireblight", "dragonblight"],
@@ -2308,7 +2308,7 @@
 
   {
     "name": "yian garuga",
-    "render": "img/render/yian_garuga.png",
+    "render": "../img/render/yian_garuga.png",
     "species": "bird wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison"],
@@ -2345,7 +2345,7 @@
 
   {
     "name": "zinogre",
-    "render": "img/render/zinogre.png",
+    "render": "../img/render/zinogre.png",
     "species": "fanged wyvern",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
@@ -2382,7 +2382,7 @@
 
   {
     "name": "zorah magdaros",
-    "render": "img/render/zorah_magdaros.png",
+    "render": "../img/render/zorah_magdaros.png",
     "species": "elder dragon",
     "elements": ["fire"],
     "ailments": ["fireblight"],
