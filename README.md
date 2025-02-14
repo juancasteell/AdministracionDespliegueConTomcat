@@ -10,4 +10,4 @@ Este proyecto es una base de datos interactiva de **Monster Hunter World**, dond
 - 🖼️ **Tarjetas con imágenes y detalles** de cada monstruo.
 - 📌 **Ventana emergente (popup)** con más información al hacer clic en un monstruo.
 
-  ## 🛠️ Instalación y Uso
+## 🛠️ Instalación y Uso
