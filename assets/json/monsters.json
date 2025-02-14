@@ -549,7 +549,6 @@
   {
     "name": "ebony odogaron",
     "render": "img/render/ebony_odogaron.png",
-    "icon": "img/icon/ebony_odogaron_icon.png",
     "species": "fanged wyvern",
     "elements": ["dragon"],
     "ailments": ["dragonblight", "bleeding"],
@@ -1044,12 +1043,6 @@
         "stars": 2,
         "condition": "with gold plating"
       }
-    ],
-    "locations": [
-      {
-        "name": "caverns of el dorado",
-        "img": "img/locale/caverns-of-el-dorado.jpg"
-      }
     ]
   },
 
@@ -1156,24 +1149,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1210,12 +1185,6 @@
         "element": "thunder",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
       }
     ]
   },
@@ -1254,20 +1223,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1304,24 +1259,6 @@
         "element": "fire",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -1541,20 +1478,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1681,20 +1604,6 @@
         "element": "thunder",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -1851,10 +1760,7 @@
   {
     "name": "scarred yian garuga",
     "render": "img/render/scarred_yian_garuga.png",
-    "icon": "img/icon/scarred_yian_garuga_icon.png",
     "species": "bird wyvern",
-    "description": "A tempered Yian Garuga that survived a grueling battle with just a scar on its head. Be careful of its successive breath attacks.",
-    "useful_info": "Like the normal species, its head is easily breakable, and it's quick to run out of stamina. It behaves differently when flying short distances though, so be careful.",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison", "stun"],
     "resistances": [
@@ -1885,26 +1791,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "seething bazelgeuse",
     "render": "img/render/seething_bazelgeuse.png",
-    "icon": "img/icon/seething_bazelgeuse_icon.png",
     "species": "flying wyvern",
-    "description": "The scales of this Bazelgeuse variant burn hotter than normal increasing in number and explosion radius as time passes.",
-    "useful_info": "Focus attacks on the enhanced scales to weaken the monster. Reports indicate that puddle pods, crystalburst, and scatternuts are all effective in this regard.",
     "elements": ["fire"],
     "ailments": ["fireblight", "blastblight"],
     "resistances": [
@@ -1935,26 +1828,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "shara ishvalda",
     "render": "img/render/shara_ishvalda.png",
-    "icon": "img/icon/shara_ishvalda_icon.png",
     "species": "elder dragon",
-    "description": "A mysterious elder dragon able to manipulate the earth itself. Vibrations from its wingtips reshape the earth, denying hunters footing.",
-    "useful_info": "Hunters must begin by stripping its sturdy rock armor: bombs and falling rocks are two proven methods. Skills to counter tremors are a boon against its wingtip attacks.",
     "elements": [],
     "ailments": ["stun"],
     "resistances": [
@@ -1985,22 +1865,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "shrieking legiana",
     "render": "img/render/shrieking_legiana.png",
-    "icon": "img/icon/shrieking_legiana_icon.png",
     "species": "flying wyvern",
-    "description": "A Legiana variant shrouded in white frost. It specializes in freezing prey with the powerful chill it emits, then swooping down to strike at them from overhead.",
-    "useful_info": "Sufficient damage can knock it out of the sky, and it is especially vulnerable while dive bombing, making barrel bombs effective. Like other Legiana, poison also works well.",
     "elements": ["ice"],
     "ailments": ["iceblight"],
     "resistances": [
@@ -2031,26 +1902,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "silver rathalos",
     "render": "img/render/silver_rathalos.png",
-    "icon": "img/icon/silver_rathalos_icon.png",
     "species": "flying wyvern",
-    "description": "A rare silver scaled Rathalos species. When weathering in hellfire, its breath grows more lethal and it gains a new set of attacks.",
-    "useful_info": "The hellfire can be dispelled by dealing a set amount of damage to its head. It lives in tandem with a Gold Rathian, and their breath becomes deadlier still when combined.",
     "elements": ["fire"],
     "ailments": ["fireblight", "stun", "poison"],
     "resistances": [
@@ -2081,26 +1939,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "stygian zinogre",
     "render": "img/render/stygian_zinogre.png",
-    "icon": "img/icon/stygian_zinogre_icon.png",
     "species": "fanged wyvern",
-    "description": "Has a symbiotic relationship with Dracophage bugs, which it releases like bullets. Becomes even more dangerous when covered in light.",
-    "useful_info": "Its powered up state is cancelled when it flinches or is toppled. When its hide toughens, it becomes more vulnerable to elemental attacks.",
     "elements": ["dragon"],
     "ailments": ["dragonblight"],
     "resistances": [
@@ -2145,20 +1990,6 @@
         "element": "water",
         "stars": 2,
         "condition": "when fully charged"
-      }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -2363,8 +2194,6 @@
     "name": "velkhana",
     "render": "img/render/velkhana.png",
     "species": "elder dragon",
-    "description": "An elder dragon with the power to freeze all in its path. According to ancient legend, it can freely control the cold, and use its freezing breath to conjure massive spires of ice out of nowhere.",
-    "useful_info": "Shattering the ice that encases its body neutralizes its freezing breath. The ice walls it forms can be broken to provide platforms for mounting. Torch pods are useful for this.",
     "elements": ["ice"],
     "ailments": ["iceblight"],
     "resistances": [
@@ -2395,46 +2224,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "viper tobi-kadachi",
     "render": "img/render/viper_tobi-kadachi.png",
-    "icon": "img/icon/viper_tobi-kadachi_icon.png",
     "species": "fanged wyvern",
-    "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
-    "useful_info": "It's agility is its greatest weapon, but also makes it prone to exhaustion. When tired, it grows drastically less mobile. Focus attacks on its soft parts to tucker it out quickly.",
     "elements": [],
     "ailments": ["poison", "noxious poison", "paralysis"],
     "resistances": [
@@ -2465,27 +2261,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-
-    "locations": [
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "xeno'jiiva",
     "render": "img/render/xenojiiva.png",
-    "icon": "img/icon/xenojiiva_icon.png",
     "species": "elder dragon",
-    "description": "A new species discovered in the depths of the Elder's Recess. Its relationship to the other elder dragons is unclear, as is its ecology.",
-    "useful_info": "Perhaps as a result of its inability to fully control its own incalculable power, Xeno'jiiva is prone to go into a rampage when its energy filled limbs take enough damage. Endure its rampage and you may be rewarded with a good opening for attacks.",
     "elements": ["fire", "dragon"],
     "ailments": ["fireblight", "dragonblight"],
     "resistances": [
@@ -2521,22 +2303,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      }
     ]
   },
 
   {
     "name": "yian garuga",
     "render": "img/render/yian_garuga.png",
-    "icon": "img/icon/yian_garuga_icon.png",
     "species": "bird wyvern",
-    "description": "A short tempered bird wyvern marked by its hard, black scales and impressive mane. It strikes with its distinctive beak.",
-    "useful_info": "It moves violently with its entire body, enough to break pitfall traps when enraged. Slow it by breaking body parts or baiting out its stamina intensive beak attacks.",
     "elements": ["fire"],
     "ailments": ["fireblight", "poison"],
     "resistances": [
@@ -2567,26 +2340,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "zinogre",
     "render": "img/render/zinogre.png",
-    "icon": "img/icon/zinogre_icon.png",
     "species": "fanged wyvern",
-    "description": "Lightning courses through the fur and unique plating of this fanged wyvern. It is most deadly in its supercharged state.",
-    "useful_info": "When supercharged, parts of the monster become soft, but shock traps no longer work. You can also knock it out of supercharged mode by making it flinch several times. Once it's down, you can use the capture net to collect materials.",
     "elements": ["thunder"],
     "ailments": ["thunderblight"],
     "resistances": [
@@ -2617,30 +2377,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "zorah magdaros",
     "render": "img/render/zorah_magdaros.png",
-    "icon": "img/icon/zorah_magdaros_icon.png",
     "species": "elder dragon",
-    "description": "An elder dragon that rises from the Earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
-    "useful_info": "Normal attacks can't make a dent in its mountain like shell. Utilize larger weapons such as cannons and ballistae, or directly attack the 'magmacore' heat organs that are exposed in parts of its outer shell.",
     "elements": ["fire"],
     "ailments": ["fireblight"],
     "resistances": [
@@ -2660,16 +2403,6 @@
         "element": "water",
         "stars": 3,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "the great ravine",
-        "img": "img/locale/great_ravine.jpg"
-      },
-      {
-        "name": "the everstream",
-        "img": "img/locale/everstream.jpg"
       }
     ]
   }
