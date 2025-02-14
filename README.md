@@ -11,3 +11,6 @@ Este proyecto es una base de datos interactiva de **Monster Hunter World**, dond
 - 📌 **Ventana emergente (popup)** para visualizar mejor al monstruo.
 
 ## 🛠️ Instalación y Uso
+
+
+⚠️ Este es un proyecto fan y no está afiliado con Capcom.
