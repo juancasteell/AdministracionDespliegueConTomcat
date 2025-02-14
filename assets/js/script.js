@@ -27,22 +27,27 @@ fetch("/assets/json/monsters.json")
 function createMonsterCard(monster) {
   const card = document.createElement("div");
   card.className = "monster-card";
+  let elementsText = "None";
+  if (monster.elements && monster.elements.length) {
+    elementsText = monster.elements.join(", ");
+  }
+
+  let ailmentsText = "None";
+  if (monster.ailments && monster.ailments.length) {
+    ailmentsText = monster.ailments.join(", ");
+  }
+
+  let renderSrc = "/placeholder.svg";
+  if (monster.render) {
+    renderSrc = monster.render;
+  }
+
   card.innerHTML = `
         <h3>${monster.name}</h3>
-        <img src="${monster.render || "/placeholder.svg"}" alt="${
-    monster.name
-  }">
+        <img src="${renderSrc}" alt="${monster.name}">
         <p><strong>Especie:</strong> ${monster.species || "Unknown"}</p>
-        <p><strong>Elementos:</strong> ${
-          monster.elements && monster.elements.length
-            ? monster.elements.join(", ")
-            : "None"
-        }</p>
-        <p><strong>Dolencias:</strong> ${
-          monster.ailments && monster.ailments.length
-            ? monster.ailments.join(", ")
-            : "None"
-        }</p>
+        <p><strong>Elementos:</strong> ${elementsText}</p>
+        <p><strong>Dolencias:</strong> ${ailmentsText}</p>
     `;
   card.addEventListener("click", () => showPopup(monster));
   return card;
