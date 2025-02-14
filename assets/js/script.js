@@ -8,7 +8,7 @@ let currentIndex = 0;
 const monstersPerPage = 3;
 
 // Fetch monster data
-fetch("/assets/json/monsters.json")
+fetch("../json/monsters.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
