@@ -140,7 +140,7 @@
 
   {
     "name": "bazelgeuse",
-    "render": "img/render/bazelgeuse.png",
+    "render": "../img/render/bazelgeuse.png",
     "species": "flying wyvern",
     "elements": ["fire"],
     "ailments": ["fireblight"],
@@ -171,28 +171,6 @@
         "element": "ice",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
       }
     ]
   },
@@ -257,16 +235,6 @@
         "element": "thunder",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -457,26 +425,13 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
   {
     "name": "deviljho",
     "render": "img/render/deviljho.png",
-    "icon": "img/icon/deviljho_icon.png",
     "species": "brute wyvern",
-    "description": "Due to its enhanced metabolism, Deviljho must constantly seek out prey. It is extremely violent, and known to snatch up large monsters in its powerful maw and flail them around.",
-    "useful_info": "When enraged, Deviljho's swollen muscles glow a hellish red. It will start spewing a sweeping dragon element attack, so watch your distance. Deviljho stays on the attack even when wounded, but don't give up; keep fighting and you'll come out on top.",
     "elements": ["dragon"],
     "ailments": [
       "dragonblight",
@@ -513,28 +468,6 @@
         "element": "water",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
       }
     ]
   },
@@ -573,16 +506,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -619,16 +542,6 @@
         "element": "ice",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -668,36 +581,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -736,12 +619,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "castle schrade",
-        "img": "img/locale/castle-schrade.jpg"
-      }
     ]
   },
 
@@ -778,16 +655,6 @@
         "element": "thunder",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -836,36 +703,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "The Guiding Lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -902,16 +739,6 @@
         "element": "ice",
         "stars": 3,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -950,28 +777,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1009,16 +814,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1051,16 +846,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "rotten vale",
-        "img": "img/locale/rotten-vale.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1092,16 +877,6 @@
         "element": "ice",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -1140,16 +915,6 @@
         "stars": 3,
         "condition": "covered in mud"
       }
-    ],
-    "locations": [
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1187,20 +952,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "coral highlands",
-        "img": "img/locale/coral-highlands.jpg"
-      },
-      {
-        "name": "hoarfrost reach",
-        "img": "img/locale/hoarfrost-reach.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1235,20 +986,6 @@
         "element": "dragon",
         "stars": 2,
         "condition": null
-      }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "wildspire waste",
-        "img": "img/locale/wildspire-waste.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
@@ -1345,20 +1082,6 @@
         "stars": 2,
         "condition": null
       }
-    ],
-    "locations": [
-      {
-        "name": "ancient forest",
-        "img": "img/locale/ancient-forest.jpg"
-      },
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
-      }
     ]
   },
 
@@ -1405,16 +1128,6 @@
         "element": "ice",
         "stars": 2,
         "condition": "not hardened"
-      }
-    ],
-    "locations": [
-      {
-        "name": "elder's recess",
-        "img": "img/locale/elders-recess.jpg"
-      },
-      {
-        "name": "the guiding lands",
-        "img": "img/locale/guiding-lands.jpg"
       }
     ]
   },
