@@ -27,12 +27,12 @@ fetch("/assets/json/monsters.json")
 function createMonsterCard(monster) {
   const card = document.createElement("div");
   card.className = "monster-card";
-  let elementsText = "None";
+  let elementsText = "Ninguno";
   if (monster.elements && monster.elements.length) {
     elementsText = monster.elements.join(", ");
   }
 
-  let ailmentsText = "None";
+  let ailmentsText = "Ninguno";
   if (monster.ailments && monster.ailments.length) {
     ailmentsText = monster.ailments.join(", ");
   }
@@ -45,7 +45,7 @@ function createMonsterCard(monster) {
   card.innerHTML = `
         <h3>${monster.name}</h3>
         <img src="${renderSrc}" alt="${monster.name}">
-        <p><strong>Especie:</strong> ${monster.species || "Unknown"}</p>
+        <p><strong>Especie:</strong> ${monster.species || "No se sabe"}</p>
         <p><strong>Elementos:</strong> ${elementsText}</p>
         <p><strong>Dolencias:</strong> ${ailmentsText}</p>
     `;
