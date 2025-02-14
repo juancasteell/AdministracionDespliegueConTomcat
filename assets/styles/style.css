@@ -53,8 +53,8 @@ main {
 
 #monsterList {
   display: flex;
-  transition: transform 0.5s ease;
-  gap: 2rem; /* Add space between cards */
+  transition: transform 0.3s ease-in-out; /* Hace el movimiento más suave */
+  gap: 2rem;
 }
 
 .monster-card {

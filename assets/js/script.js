@@ -1,5 +1,4 @@
 let monsters = [];
-let filteredMonsters = [];
 const searchInput = document.getElementById("searchInput");
 const monsterList = document.getElementById("monsterList");
 const prevBtn = document.getElementById("prevBtn");
@@ -18,7 +17,6 @@ fetch("/assets/json/monsters.json")
   })
   .then((data) => {
     monsters = data;
-    filteredMonsters = [...monsters];
     updateCarousel();
   })
   .catch((error) => {
@@ -76,15 +74,9 @@ function showPopup(monster) {
 
 function displayMonsters() {
   monsterList.innerHTML = "";
-  const startIndex = currentIndex;
-  const endIndex = Math.min(
-    startIndex + monstersPerPage,
-    filteredMonsters.length
-  );
-
-  for (let i = startIndex; i < endIndex; i++) {
-    monsterList.appendChild(createMonsterCard(filteredMonsters[i]));
-  }
+  monsters.forEach((monster) => {
+    monsterList.appendChild(createMonsterCard(monster));
+  });
 }
 
 function updateCarousel() {
@@ -95,36 +87,44 @@ function updateCarousel() {
 
 function updateCarouselPosition() {
   const cardWidth = monsterList.offsetWidth / monstersPerPage;
-  monsterList.style.transform = `translateX(0)`;
+  monsterList.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 }
 
 function updateButtonStates() {
   prevBtn.disabled = currentIndex === 0;
-  nextBtn.disabled = currentIndex >= filteredMonsters.length - monstersPerPage;
+  nextBtn.disabled = currentIndex >= monsters.length - monstersPerPage;
 }
 
 prevBtn.addEventListener("click", () => {
   if (currentIndex > 0) {
-    currentIndex -= monstersPerPage;
+    currentIndex--;
     updateCarousel();
   }
 });
 
 nextBtn.addEventListener("click", () => {
-  if (currentIndex < filteredMonsters.length - monstersPerPage) {
-    currentIndex += monstersPerPage;
+  if (currentIndex < monsters.length - monstersPerPage) {
+    currentIndex++;
     updateCarousel();
   }
 });
 
 searchInput.addEventListener("input", (e) => {
   const searchTerm = e.target.value.toLowerCase();
-  filteredMonsters = monsters.filter((monster) =>
+  const filteredMonsters = monsters.filter((monster) =>
     monster.name.toLowerCase().includes(searchTerm)
   );
   currentIndex = 0;
-  updateCarousel();
+  displayFilteredMonsters(filteredMonsters);
 });
 
+function displayFilteredMonsters(filteredMonsters) {
+  monsterList.innerHTML = "";
+  filteredMonsters.forEach((monster) => {
+    monsterList.appendChild(createMonsterCard(monster));
+  });
+  updateButtonStates();
+}
+
 // Update carousel on window resize
-window.addEventListener("resize", updateCarousel);
+window.addEventListener("resize", updateCarouselPosition);
