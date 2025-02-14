@@ -1,47 +1,13 @@
 [
   {
-    "name": "acidic glavenus",
+    "name": "Acidic glavenus",
     "render": "../img/render/acidic_glavenus.png",
     "species": "brute Wwvern",
     "elements": [],
-    "ailments": ["defense down"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": "crystallized state"
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": "normal state"
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["defense down"]
   },
   {
-    "name": "alatreon",
+    "name": "Alatreon",
     "render": "../img/render/alatreon.png",
     "species": "elder dragon",
     "elements": ["dragon", "fire", "ice", "thunder", "water"],
@@ -51,307 +17,52 @@
       "iceblight",
       "thunderblight",
       "waterblight"
-    ],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": "dragon active"
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": "dragon active"
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": "dragon active"
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": "dragon active"
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": "dragon active"
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": "fire active"
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": "fire active"
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": "fire active"
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": "ice active"
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": "ice active"
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": "ice active"
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": "dragon active"
-      },
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": "ice active"
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": "ice active"
-      },
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": "fire active"
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": "fire active"
-      }
     ]
   },
-
   {
-    "name": "bazelgeuse",
+    "name": "Bazelgeuse",
     "render": "../img/render/bazelgeuse.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "behemoth",
+    "name": "Behemoth",
     "render": "../img/render/behemoth.png",
     "species": "elder dragon",
     "elements": ["fire", "thunder"],
-    "ailments": ["bleeding", "fireblight", "thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["bleeding", "fireblight", "thunderblight"]
   },
-
   {
-    "name": "beotodus",
+    "name": "Beotodus",
     "render": "../img/render/beotodus.png",
     "species": "piscine wyvern",
     "elements": ["ice"],
-    "ailments": ["iceblight"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["iceblight"]
   },
-
   {
-    "name": "black diablos",
+    "name": "Black diablos",
     "render": "../img/render/black_diablos.png",
     "species": "flying wyvern",
     "elements": [],
-    "ailments": [],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": []
   },
-
   {
-    "name": "blackveil vaal hazak",
+    "name": "Blackveil vaal hazak",
     "render": "../img/render/blackveil_vaal_hazak.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": ["effluvia buildup"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["effluvia buildup"]
   },
-
   {
-    "name": "brachydios",
+    "name": "Brachydios",
     "render": "../img/render/brachydios.png",
     "species": "brute wyvern",
     "elements": [],
-    "ailments": ["blastscourge"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["blastscourge"]
   },
-
   {
-    "name": "brute tigrex",
+    "name": "Brute tigrex",
     "render": "../img/render/brute_tigrex.png",
     "species": "flying wyvern",
     "elements": [],
@@ -359,77 +70,17 @@
       "fireblight on lava terrain",
       "waterblight on water terrain",
       "effluvia buildup on effluvial terrain"
-    ],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
     ]
   },
-
   {
-    "name": "coral pukei-pukei",
+    "name": "Coral pukei-pukei",
     "render": "../img/render/coral_pukei-pukei.png",
     "species": "bird wyvern",
     "elements": ["water"],
-    "ailments": ["waterblight"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["waterblight"]
   },
-
   {
-    "name": "deviljho",
+    "name": "Deviljho",
     "render": "../img/render/deviljho.png",
     "species": "brute wyvern",
     "elements": ["dragon"],
@@ -437,1284 +88,257 @@
       "dragonblight",
       "defense down",
       "fireblight on lava terrain",
-      "iceblight on ice terrian",
+      "iceblight on ice terrain",
       "waterblight on water terrain",
       "effluvial buildup on effluvial terrain"
-    ],
-    "resistances": [
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
     ]
   },
-
   {
-    "name": "diablos",
+    "name": "Diablos",
     "render": "../img/render/diablos.png",
     "species": "flying wyvern",
     "elements": [],
-    "ailments": ["stun"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["stun"]
   },
-
   {
-    "name": "dodogama",
+    "name": "Dodogama",
     "render": "../img/render/dodogama.png",
     "species": "fanged wyvern",
     "elements": ["fire"],
-    "ailments": ["blastblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["blastblight"]
   },
-
   {
-    "name": "ebony odogaron",
+    "name": "Ebony odogaron",
     "render": "../img/render/ebony_odogaron.png",
     "species": "fanged wyvern",
     "elements": ["dragon"],
-    "ailments": ["dragonblight", "bleeding"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["dragonblight", "bleeding"]
   },
-
   {
-    "name": "fatalis",
+    "name": "Fatalis",
     "render": "../img/render/fatalis.png",
     "species": "elder dragon",
     "elements": ["dragon", "fire"],
-    "ailments": ["dragonblight", "fireblight"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["dragonblight", "fireblight"]
   },
-
   {
-    "name": "frostfang barioth",
+    "name": "Frostfang barioth",
     "render": "../img/render/frostfang_barioth.png",
     "species": "flying wyvern",
     "elements": ["ice"],
-    "ailments": ["iceblight"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["iceblight"]
   },
-
   {
-    "name": "fulgur anjanath",
+    "name": "Fulgur anjanath",
     "render": "../img/render/fulgur_anjanath.png",
     "species": "brute wyvern",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": "when not charged"
-      },
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": "when fully charged"
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": "when fully charged"
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": "when not charged"
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "furious rajang",
+    "name": "Furious rajang",
     "render": "../img/render/furious_rajang.png",
     "species": "fanged beasts",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "glavenus",
+    "name": "Glavenus",
     "render": "../img/render/glavenus.png",
     "species": "brute wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "gold rathian",
+    "name": "Gold rathian",
     "render": "../img/render/gold_rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "poison", "noxious poison"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "poison", "noxious poison"]
   },
-
   {
-    "name": "great girros",
+    "name": "Great girros",
     "render": "../img/render/great_girros.png",
     "species": "fanged wyvern",
     "elements": [],
-    "ailments": ["paralysis"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["paralysis"]
   },
-
   {
-    "name": "great jagras",
+    "name": "Great jagras",
     "render": "../img/render/great_jagras.png",
     "species": "fanged wyvern",
     "elements": [],
-    "ailments": [],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": []
   },
-
   {
-    "name": "jyuratodus",
+    "name": "Jyuratodus",
     "render": "../img/render/jyuratodus.png",
     "species": "piscine wyvern",
     "elements": ["water"],
-    "ailments": ["waterblight"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": "not covered in mud"
-      },
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": "covered in mud"
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": "covered in mud"
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": "not covered in mud"
-      },
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": "covered in mud"
-      }
-    ]
+    "ailments": ["waterblight"]
   },
-
   {
-    "name": "kirin",
+    "name": "Kirin",
     "render": "../img/render/kirin.png",
     "species": "elder dragon",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "paralysis",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "kulu-ya-ku",
+    "name": "Kulu-ya-ku",
     "render": "../img/render/kulu-ya-ku.png",
     "species": "bird wyvern",
-    "ailments": ["stun"],
-    "resistances": [],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["stun"]
   },
-
   {
-    "name": "kulve taroth",
+    "name": "Kulve taroth",
     "render": "../img/render/kulve_taroth.png",
     "species": "elder dragon",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": "with gold plating"
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": "with gold plating"
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": "with gold plating"
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": "with gold plating"
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "kushala daora",
+    "name": "Kushala daora",
     "render": "../img/render/kushala_daora.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": ["stun"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["stun"]
   },
-
   {
-    "name": "lavasioth",
+    "name": "Lavasioth",
     "render": "../img/render/lavasioth.png",
     "species": "piscine wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": "not hardened"
-      },
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": "when hardened"
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": "when hardened"
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": "not hardened"
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": "when hardened"
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": "not hardened"
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": "not hardened"
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "legiana",
+    "name": "Legiana",
     "render": "../img/render/legiana.png",
     "species": "flying wyvern",
     "elements": ["ice"],
-    "ailments": ["iceblight"],
-    "resistances": [
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["iceblight"]
   },
-
   {
-    "name": "leshen",
+    "name": "Leshen",
     "render": "../img/render/leshen.png",
     "species": "relict",
     "elements": [],
-    "ailments": ["bleeding"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "sleep",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["bleeding"]
   },
-
   {
-    "name": "lunastra",
+    "name": "Lunastra",
     "render": "../img/render/lunastra.png",
     "species": "elder dragon",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "nargacuga",
+    "name": "Nargacuga",
     "render": "../img/render/nargacuga.png",
     "species": "flying wyvern",
     "elements": ["none"],
-    "ailments": ["bleeding"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["bleeding"]
   },
-
   {
-    "name": "namielle",
+    "name": "Namielle",
     "render": "../img/render/namielle.png",
     "species": "elder dragon",
     "elements": ["water", "thunder"],
-    "ailments": ["waterblight", "thunderblight"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["waterblight", "thunderblight"]
   },
-
   {
-    "name": "nergigante",
+    "name": "Nergigante",
     "render": "../img/render/nergigante.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": [],
-    "resistances": [],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": []
   },
-
   {
-    "name": "nightshade paolumu",
+    "name": "Nightshade paolumu",
     "render": "../img/render/nightshade_paolumu.png",
     "species": "flying wyvern",
     "elements": [],
-    "ailments": ["sleep"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["sleep"]
   },
-
   {
-    "name": "odogaron",
+    "name": "Odogaron",
     "render": "../img/render/odogaron.png",
     "species": "fanged wyvern",
     "elements": [],
-    "ailments": ["bleeding"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["bleeding"]
   },
-
   {
-    "name": "paolumu",
+    "name": "Paolumu",
     "render": "../img/render/paolumu.png",
     "species": "flying wyvern",
     "elements": [],
-    "ailments": ["wind pressure"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["wind pressure"]
   },
-
   {
-    "name": "pink rathian",
+    "name": "Pink rathian",
     "render": "../img/render/pink_rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["poison", "noxious poison"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["poison", "noxious poison"]
   },
-
   {
-    "name": "pukei-pukei",
+    "name": "Pukei-pukei",
     "render": "../img/render/pukei-pukei.png",
     "species": "bird wyvern",
     "elements": [],
-    "ailments": ["poison"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["poison"]
   },
-
   {
-    "name": "radobaan",
+    "name": "Radobaan",
     "render": "../img/render/radobaan.png",
     "species": "brute wyvern",
     "elements": [],
-    "ailments": ["sleep"],
-    "resistances": [],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["sleep"]
   },
-
   {
-    "name": "raging brachydios",
+    "name": "Raging brachydios",
     "render": "../img/render/raging_brachydios.png",
     "species": "brute wyvern",
     "elements": [],
-    "ailments": ["blastscourge"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["blastscourge"]
   },
-
   {
-    "name": "rajang",
+    "name": "Rajang",
     "render": "../img/render/rajang.png",
     "species": "fanged beasts",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "rathalos",
+    "name": "Rathalos",
     "render": "../img/render/rathalos.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "poison", "stun"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "poison", "stun"]
   },
-
   {
-    "name": "rathian",
+    "name": "Rathian",
     "render": "../img/render/rathian.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "poison"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "poison"]
   },
-
   {
-    "name": "ruiner nergigante",
+    "name": "Ruiner nergigante",
     "render": "../img/render/ruiner_nergigante.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": ["bleeding"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["bleeding"]
   },
-
   {
-    "name": "safi'jiiva",
+    "name": "Safi'jiiva",
     "render": "../img/render/safi'jiiva.png",
     "species": "elder dragon",
     "elements": ["fire", "dragon"],
-    "ailments": ["fireblight"],
-    "resistances": [],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": "with elderseal"
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": "without elderseal"
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight"]
   },
-
   {
-    "name": "savage deviljho",
+    "name": "Savage deviljho",
     "render": "../img/render/savage_deviljho.png",
     "species": "brute wyvern",
     "elements": ["dragon"],
@@ -1725,304 +349,59 @@
       "iceblight on ice terrian",
       "waterblight on water terrain",
       "effluvial buildup on effluvial terrain"
-    ],
-    "resistances": [
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
     ]
   },
-
   {
-    "name": "scarred yian garuga",
+    "name": "Scarred yian garuga",
     "render": "../img/render/scarred_yian_garuga.png",
     "species": "bird wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "poison", "stun"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "poison", "stun"]
   },
-
   {
-    "name": "seething bazelgeuse",
+    "name": "Seething bazelgeuse",
     "render": "../img/render/seething_bazelgeuse.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "blastblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "blastblight"]
   },
-
   {
-    "name": "shara ishvalda",
+    "name": "Shara ishvalda",
     "render": "../img/render/shara_ishvalda.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": ["stun"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["stun"]
   },
-
   {
-    "name": "shrieking legiana",
+    "name": "Shrieking legiana",
     "render": "../img/render/shrieking_legiana.png",
     "species": "flying wyvern",
     "elements": ["ice"],
-    "ailments": ["iceblight"],
-    "resistances": [
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["iceblight"]
   },
-
   {
-    "name": "silver rathalos",
+    "name": "Silver rathalos",
     "render": "../img/render/silver_rathalos.png",
     "species": "flying wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "stun", "poison"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "stun", "poison"]
   },
-
   {
-    "name": "stygian zinogre",
+    "name": "Stygian zinogre",
     "render": "../img/render/stygian_zinogre.png",
     "species": "fanged wyvern",
     "elements": ["dragon"],
-    "ailments": ["dragonblight"],
-    "resistances": [
-      {
-        "element": "dragon",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 1,
-        "condition": "when fully charged"
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": "when fully charged"
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": "when fully charged"
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": "when fully charged"
-      }
-    ]
+    "ailments": ["dragonblight"]
   },
-
   {
-    "name": "teostra",
+    "name": "Teostra",
     "render": "../img/render/teostra.png",
     "species": "elder dragon",
     "elements": ["fire"],
-    "ailments": ["fireblight", "blastblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "blastblight"]
   },
-
   {
-    "name": "tigrex",
+    "name": "Tigrex",
     "render": "../img/render/tigrex.png",
     "species": "flying wyvern",
     "elements": [],
@@ -2031,379 +410,76 @@
       "waterblight on water terrain",
       "fireblight on lava terrain",
       "effluvial buildup on effluvial terrain"
-    ],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
     ]
   },
-
   {
-    "name": "tobi-kadachi",
+    "name": "Tobi-kadachi",
     "render": "../img/render/tobi-kadachi.png",
     "species": "fanged wyvern",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "tzitzi-ya-ku",
+    "name": "Tzitzi-ya-ku",
     "render": "../img/render/tzitzi-ya-ku.png",
     "species": "bird wyvern",
     "elements": ["thunder"],
-    "ailments": ["stun"],
-    "resistances": [],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["stun"]
   },
-
   {
-    "name": "uragaan",
+    "name": "Uragaan",
     "render": "../img/render/uragaan.png",
     "species": "brute wyvern",
     "elements": ["fire"],
-    "ailments": ["sleep", "fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["sleep", "fireblight"]
   },
-
   {
-    "name": "vaal hazak",
+    "name": "Vaal hazak",
     "render": "../img/render/vaal_hazak.png",
     "species": "elder dragon",
     "elements": [],
-    "ailments": ["effluvia"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["effluvia"]
   },
-
   {
-    "name": "velkhana",
+    "name": "Velkhana",
     "render": "../img/render/velkhana.png",
     "species": "elder dragon",
     "elements": ["ice"],
-    "ailments": ["iceblight"],
-    "resistances": [
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["iceblight"]
   },
-
   {
-    "name": "viper tobi-kadachi",
+    "name": "Viper tobi-kadachi",
     "render": "../img/render/viper_tobi-kadachi.png",
     "species": "fanged wyvern",
     "elements": [],
-    "ailments": ["poison", "noxious poison", "paralysis"],
-    "resistances": [
-      {
-        "element": "water",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "thunder",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["poison", "noxious poison", "paralysis"]
   },
-
   {
-    "name": "xeno'jiiva",
+    "name": "Xeno'jiiva",
     "render": "../img/render/xenojiiva.png",
     "species": "elder dragon",
     "elements": ["fire", "dragon"],
-    "ailments": ["fireblight", "dragonblight"],
-    "resistances": [
-      {
-        "element": "sleep",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "fire",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "thunder",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 2,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "dragonblight"]
   },
-
   {
-    "name": "yian garuga",
+    "name": "Yian garuga",
     "render": "../img/render/yian_garuga.png",
     "species": "bird wyvern",
     "elements": ["fire"],
-    "ailments": ["fireblight", "poison"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "ice",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight", "poison"]
   },
-
   {
-    "name": "zinogre",
+    "name": "Zinogre",
     "render": "../img/render/zinogre.png",
     "species": "fanged wyvern",
     "elements": ["thunder"],
-    "ailments": ["thunderblight"],
-    "resistances": [
-      {
-        "element": "thunder",
-        "stars": 0,
-        "condition": null
-      },
-      {
-        "element": "fire",
-        "stars": 1,
-        "condition": null
-      },
-      {
-        "element": "dragon",
-        "stars": 1,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "ice",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 2,
-        "condition": null
-      }
-    ]
+    "ailments": ["thunderblight"]
   },
-
   {
-    "name": "zorah magdaros",
+    "name": "Zorah magdaros",
     "render": "../img/render/zorah_magdaros.png",
     "species": "elder dragon",
     "elements": ["fire"],
-    "ailments": ["fireblight"],
-    "resistances": [
-      {
-        "element": "fire",
-        "stars": 0,
-        "condition": null
-      }
-    ],
-    "weaknesses": [
-      {
-        "element": "dragon",
-        "stars": 3,
-        "condition": null
-      },
-      {
-        "element": "water",
-        "stars": 3,
-        "condition": null
-      }
-    ]
+    "ailments": ["fireblight"]
   }
 ]

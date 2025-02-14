@@ -15,17 +15,19 @@
     <main>
         <section id="intro">
             <h2>Bienvenido, Cazador!</h2>
-            <p>Un par de mosntruos por aqui otro par por alla.</p>
+            <p>Un par de monstruos por aquí otro par por allá.</p>
         </section>
         <section id="search">
-            <input type="text" id="searchInput" placeholder="Search monsters...">
+            <input type="text" id="searchInput" placeholder="Filtrar por nombre...">
         </section>
         <section id="monsterCarousel">
             <h2>Monster Showcase</h2>
             <div class="carousel-container">
-                <button id="prevBtn">&lt;</button>
-                <div id="monsterList"></div>
-                <button id="nextBtn">&gt;</button>
+                <button id="prevBtn" class="carousel-btn">&lt;</button>
+                <div class="carousel-wrapper">
+                    <div id="monsterList" class="carousel-content"></div>
+                </div>
+                <button id="nextBtn" class="carousel-btn">&gt;</button>
             </div>
         </section>
     </main>

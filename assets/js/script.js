@@ -1,4 +1,5 @@
 let monsters = [];
+let filteredMonsters = [];
 const searchInput = document.getElementById("searchInput");
 const monsterList = document.getElementById("monsterList");
 const prevBtn = document.getElementById("prevBtn");
@@ -17,6 +18,7 @@ fetch("/assets/json/monsters.json")
   })
   .then((data) => {
     monsters = data;
+    filteredMonsters = [...monsters];
     updateCarousel();
   })
   .catch((error) => {
@@ -32,48 +34,97 @@ function createMonsterCard(monster) {
         <img src="${monster.render || "/placeholder.svg"}" alt="${
     monster.name
   }">
-        <p><strong>Especie:</strong> ${monster.species}</p>
+        <p><strong>Especie:</strong> ${monster.species || "Unknown"}</p>
         <p><strong>Elementos:</strong> ${
-          monster.elements.join(", ") || "None"
+          monster.elements && monster.elements.length
+            ? monster.elements.join(", ")
+            : "None"
         }</p>
         <p><strong>Dolencias:</strong> ${
-          monster.ailments.join(", ") || "None"
+          monster.ailments && monster.ailments.length
+            ? monster.ailments.join(", ")
+            : "None"
         }</p>
     `;
+  card.addEventListener("click", () => showPopup(monster));
   return card;
 }
 
-function displayMonsters(startIndex, endIndex) {
+function showPopup(monster) {
+  const popup = document.createElement("div");
+  popup.className = "popup";
+  popup.innerHTML = `
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <img src="${monster.render || "/placeholder.svg"}" alt="${monster.name}">
+      <h2>${monster.name}</h2>
+    </div>
+  `;
+  document.body.appendChild(popup);
+
+  const closeBtn = popup.querySelector(".close-btn");
+  closeBtn.addEventListener("click", () => {
+    document.body.removeChild(popup);
+  });
+
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      document.body.removeChild(popup);
+    }
+  });
+}
+
+function displayMonsters() {
   monsterList.innerHTML = "";
-  for (let i = startIndex; i < endIndex && i < monsters.length; i++) {
-    monsterList.appendChild(createMonsterCard(monsters[i]));
+  const startIndex = currentIndex;
+  const endIndex = Math.min(
+    startIndex + monstersPerPage,
+    filteredMonsters.length
+  );
+
+  for (let i = startIndex; i < endIndex; i++) {
+    monsterList.appendChild(createMonsterCard(filteredMonsters[i]));
   }
 }
 
 function updateCarousel() {
-  displayMonsters(currentIndex, currentIndex + monstersPerPage);
+  displayMonsters();
+  updateCarouselPosition();
+  updateButtonStates();
+}
+
+function updateCarouselPosition() {
+  const cardWidth = monsterList.offsetWidth / monstersPerPage;
+  monsterList.style.transform = `translateX(0)`;
+}
+
+function updateButtonStates() {
+  prevBtn.disabled = currentIndex === 0;
+  nextBtn.disabled = currentIndex >= filteredMonsters.length - monstersPerPage;
 }
 
 prevBtn.addEventListener("click", () => {
-  currentIndex = Math.max(0, currentIndex - monstersPerPage);
-  updateCarousel();
+  if (currentIndex > 0) {
+    currentIndex -= monstersPerPage;
+    updateCarousel();
+  }
 });
 
 nextBtn.addEventListener("click", () => {
-  currentIndex = Math.min(
-    monsters.length - monstersPerPage,
-    currentIndex + monstersPerPage
-  );
-  updateCarousel();
+  if (currentIndex < filteredMonsters.length - monstersPerPage) {
+    currentIndex += monstersPerPage;
+    updateCarousel();
+  }
 });
 
 searchInput.addEventListener("input", (e) => {
   const searchTerm = e.target.value.toLowerCase();
-  const filteredMonsters = monsters.filter((monster) =>
+  filteredMonsters = monsters.filter((monster) =>
     monster.name.toLowerCase().includes(searchTerm)
   );
-  monsterList.innerHTML = "";
-  filteredMonsters.forEach((monster) => {
-    monsterList.appendChild(createMonsterCard(monster));
-  });
+  currentIndex = 0;
+  updateCarousel();
 });
+
+// Update carousel on window resize
+window.addEventListener("resize", updateCarousel);
